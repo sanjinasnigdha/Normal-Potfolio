@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
+@font-face {
+  font-family: Segoe UL;
+  src: url(../fonts/SEGOEUI.TTF);
+}
+@font-face {
+  font-family: Segoe UL-bold;
+  src: url(../fonts/Segoe-UI-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common code start */
+body {
+  font-family: Segoe UL;
+  width: 100%;
+}
+.heading {
+  font-size: 45px;
+  margin-bottom: 5px;
+  color: #333333;
+  text-align: center;
+}
+.h-line {
+  height: 3px;
+  width: 7%;
+  margin: 0 auto;
+  background-color: #36ae5a;
+}
+/* common code end */
+/* header code start */
+header {
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      url(../images/banner.jpg) no-repeat center;
+  }
+  header .navbar .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  header .navbar .navbar-brand i {
+    color: #30c39e;
+  }
+  header .nav-link {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  header .navbar-nav .nav-link.active,
+  header .nav-link:hover {
+    color: #30c39e;
+  }
